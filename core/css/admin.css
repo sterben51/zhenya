@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f7fbff;
+    
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+.cont{
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 0px 10px;
+}
+table{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0px;
+  border-collapse: collapse;
+  
+}
+
+.table_sort table {
+    border-collapse: collapse;
+}
+
+.table_sort th {
+    color: black;
+    background: darkgray;
+    cursor: pointer;
+}
+
+.table_sort td,
+.table_sort th {
+    
+    padding: 6px;
+    font-size: 22px;
+    text-align: center;
+    
+}
+.table_sort td {
+    border-bottom: 2px solid dimgray;
+    padding: 6px;
+    font-size: 22px;
+    text-align: center;
+    
+}
+.table_sort tbody tr:nth-child(even) {
+    background: #e3e3e3;
+}
+
+th.sorted[data-order="1"],
+th.sorted[data-order="-1"] {
+    position: relative;
+}
+
+th.sorted[data-order="1"]::after,
+th.sorted[data-order="-1"]::after {
+    right: 8px;
+    position: absolute;
+}
+
+th.sorted[data-order="-1"]::after {
+    content: "▼"
+}
+
+th.sorted[data-order="1"]::after {
+    content: "▲"
+}
+
+ .admin{
+   padding-top: 60px;
+}
+h1{
+    text-align: center;
+}
+.adminn{
+    padding-top: 60px;
+    
+ }
+ .upda{
+     min-width: 300px;
+     max-width: 300px;
+     display: flex;
+     flex-direction: column;
+ }
+.sort{
+    display: flex;
+    padding-right: 10px;
+    color: white;
+}
+.export{
+    display: block; 
+    padding-bottom: 10px;
+}
+.forms{
+    display: flex;
+    padding: 15px;
+    background-color: #bdbbbb;
+    width: 900px;
+    margin: 0 auto;
+    border-radius: 25px;
+    color: white;
+    
+}
+.formlabel{
+    display: block;
+    padding-right: 10px;
+}
+input {
+    margin: 10px 0;
+    padding: 10px;
+    
+    outline: none;
+}
+select{
+    margin: 10px 0;
+    padding: 10px;
+    
+    outline: none;
+}
+button {
+    height: 40px;
+    padding: 10px;
+    background: #e3e3e3;
+    border: unset;
+    cursor: pointer;
+}

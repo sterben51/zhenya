@@ -1,0 +1,125 @@
+.intro{
+    display: flex;
+    padding-bottom: 50px;
+    background: url("../images/fon.jpg") center no-repeat;
+    width: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+  .intro-inner{
+      display: block;
+      color: white; 
+      text-align: center;
+    }
+  .par{
+      padding-top: 70px;
+      font-size: 50px;
+      text-transform: uppercase;
+  }
+  .par2{
+    padding-top: 30px;
+    font-size: 30px;
+}
+  .intro-first{
+      padding-top: 150px;
+      display: flex;
+      justify-content: space-between;
+    }
+  
+  
+  .main{
+      color: black;
+      font-size: 20px;
+      padding-top: 80px;
+      padding-bottom: 50px;
+      background-color: #f7fbff;
+      text-align: center;
+  }
+  .plus-title{
+      font-size: 34px;
+  }
+  .plus{
+      display: flex;
+      justify-content: space-around;
+      padding-top: 30px;
+  }
+  
+  .plus-block{
+      display: flex;
+      max-width: 300px;
+  }
+  @media(max-width:768px){
+    .plus{
+        flex-direction: column;
+        padding-top: 0;
+    }
+    .plus-block{
+        display: flex;
+        max-width: 300px;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+  }
+  .plus-img{
+      flex: 0 0 80px;
+      max-height: 80px;
+      padding-top: 30px;
+
+  }
+  .plus-img img{
+      max-width: 100%;
+  }
+  h1{
+      text-align: center;
+  }
+  .plus-text {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      padding-left: 20px;
+  }
+  .plus-text h3,p{
+      margin: 0;
+      padding-top: 8px;
+      padding-left: 10px;
+  }
+.contacts{
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0px 10px;
+    
+}
+@media(max-width:1260px){
+    .contacts{
+        display: block;
+        margin: 0 auto;
+    }
+    .contacts-inner{
+        width: 100%;
+        align-items: center;
+    }
+  }
+.contacts-inner{
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 25px;
+    
+}
+
+.contacts-inner p{
+    padding-top: 35px;
+    
+}
+table{
+    width: 100%; 
+    color: black; 
+    border-spacing: 1px; 
+}
+td, th {
+    font-size: 22px;
+    background: #f7fbff; 
+    border: solid 1px black;
+    padding: 40px; 
+}

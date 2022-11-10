@@ -1,0 +1,119 @@
+table{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0px;
+  border-collapse: collapse; 
+}
+td, th {
+    
+    font-size: 22px;
+    text-align: center;
+    padding: 40px; 
+}
+td {
+    border-bottom: 2px solid dimgray;
+    padding-bottom: 20px;
+    font-size: 22px;
+    text-align: center;
+    
+}
+
+.zakaz-btn{
+    flex: 0 0 250px;
+    padding-left: 20px;
+    z-index: 5;
+    padding-top: 7px;
+  }
+  .zakaz-btn img{
+      max-width: 100%;
+    }
+p {
+    margin: 10px 0;
+}
+.profile{
+    
+    margin: 0 auto;
+    padding-top: 150px;
+    padding-bottom: 0px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+    min-width: 300px;
+    margin: 0 auto;
+    
+}
+.auth{
+  padding-top: 450px;
+  
+}
+.reg{
+    padding-top: 250px;
+}
+.zayavka{
+    padding-top: 450px;
+}
+@media (max-width: 1441px){
+    .auth{
+        padding-top: 200px;
+        
+      }
+      .reg{
+          padding-top: 100px;
+      }
+      .zayavka{
+        padding-top: 200px;
+    }
+}
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+}
+select{
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+}
+button {
+    padding: 10px;
+    background: #e3e3e3;
+    border: unset;
+    cursor: pointer;
+}
+.error {
+    border-bottom: 2px solid #ff4332;
+}
+.msg {
+    border: 2px solid #ffa908;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.none {
+    display: none;
+}
+
+.logout {
+    margin-top: 5px;
+    min-width: 73px;
+    max-width: 73px;
+    background-color: #b7625c;
+    padding: 10px;
+    color: black;
+    border-radius: 6px;
+}
+.alert{
+    display: none;
+}
+.net{
+    display: none;
+}
